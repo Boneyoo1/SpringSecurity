@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+
+.college_info_conent {
+	margin: 0px !important;
+	padding: 0 10px;
+}
+
+.college_info_sub_tab_content {
+	padding: 30px;
+}
+
+.college_info_tab_content .college_name {
+	margin-top: 10px;
+}
+
+.college_info_tab_content .college_name p {
+	font-size: 30px;
+	color: var(--fontColor);
+	margin-bottom: 20px;
+	padding-right: 55px;
+}
+
+.college_info_tab_content .college_img img {
+	height: 320px;
+}
+
+#college_info_text {
+	padding: 10px;
+}
+
+.college_add_btn {
+	background-color: var(--themeColor);
+	margin-top: -25px;
+	height: 50px;
+	letter-spacing: 1px;
+	width: 90%;
+	cursor: pointer;
+	color: var(--fontColor);
+}
+.college_add_btn:hover {
+	outline: 0;
+	opacity: 0.6;
+	color: var(--fontColor);
+}
+.college_logo {
+	border: 1px solid var(--lineBorderColor);
+	margin-top: 16px;
+	width: 90%;
+}
+
+.college_logo img {
+	height: 250px;
+}
+
+.college_add_btn i {
+	border-right: 1px solid white;
+	height: 100%;
+	padding: 18px;
+	margin: 0px;
+	background-color: var(--themeColor);
+	color: var(--fontColor);
+}
+.college_add_btn i:hover {
+	outline: 0;
+	opacity: 0.6;
+	color: var(--fontColor);
+}
+
+.college_add_btn label {
+	padding-left: 5px;
+}
+
+.college_details {
+	color: black;
+	margin-top: 14px;
+	letter-spacing: 1px;
+}
+
+.college_details div {
+	padding: 5px;
+}
+
+.college_details .address {
+	margin-top: 20px;
+}
+
+.sub_header {
+	background-color: var(--backGroundColor);
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	color: var(--fontColor);
+	font-size: 16px;
+/*	border-bottom: 1px solid var(--themeColor);
+	border-top: 1px solid var(--themeColor);
+	border-left: 1px solid var(--themeColor);
+	border-right: 1px solid var(--themeColor);*/
+	padding-bottom: 5px;
+	font-weight: normal !important;
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: normal !important;
+}
+
+.menu li ul li a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal !important;
+}
+
+}
+.return_to_search_results {
+	padding: 15px 25px;
+	color: var(--fontColor);
+	margin: 0px !important;
+}
+
+.return_to_search_results a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+table, th, td {
+	font-size: 16px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+}
+
+a{
+	color: var(--fontColor)
+}
+
+.navbar-inverse {
+    background-color: var(--backGroundColor) !important;
+    border-color: var(--lineBorderColor) !important;
+}

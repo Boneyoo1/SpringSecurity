@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+.jconfirm-content {
+	font-size: 16px;
+	font-weight: 300;
+	color: #888;
+	line-height: 30px;
+	text-align: center;
+}

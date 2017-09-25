@@ -1,0 +1,96 @@
+.dashboard_tabs {
+	font-family: 'Roboto', sans-serif;
+	margin-right: 5px !important;
+}
+
+.dashboard_tab {
+	margin-top: 20px;
+	background-color: var(--backGroundColor);
+	margin: 10px;
+	padding: 0px !important;
+	padding-top: 15px;
+	border: 1px solid var(--lineBorderColor);
+}
+
+.dashboard_tab_header {
+	color: var(--fontColor);
+	letter-spacing: 1px;
+	padding: 15px;
+}
+
+.tab_header_title {
+	font-size: 30px;
+}
+
+.dashboard_tab_header i {
+	padding-right: 25px;
+	font-size: 80px;
+	color: var(--themeColor);
+	vertical-align: middle;
+}
+
+.dashboard_tab_secions_completed {
+	letter-spacing: 1px;
+	font-weight: normal !important;
+	border-bottom: 1px solid var(--lineBorderColor);
+	padding-bottom: 20px;
+	padding-left: 15px;
+	color: #033f7a;
+}
+
+.profile_tabs {
+	background-color: var(--backGroundColor);
+	color:black;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.each_section {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid var(--lineBorderColor);
+	cursor: pointer;
+	letter-spacing: 1px;
+	margin: 0;
+
+}
+
+.school_app_status i {
+	padding: 5px;
+	border-radius: 100%;
+	border: 1px solid var(--themeColor);
+}
+
+.school_app_status {
+	text-align: #ffe500;
+}
+
+.red {
+	color: var(--pendingIcon);
+}
+
+.green {
+	color: var(--tickmarkColor);
+}
+
+.each_section:HOVER {
+	color: var(--fontColor);
+	background-color: var(--hoverColor);
+}
+
+.profile_tabs {
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+.jconfirm-content {
+	font-size: 16px;
+	font-weight: 300;
+	color: #888;
+	line-height: 30px;
+	text-align: center;
+}
+.navbar-inverse {
+    background-color: var(--backGroundColor) !important;
+    border-color: var(--lineBorderColor) !important;
+}

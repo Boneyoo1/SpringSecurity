@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+#school_admin_each_menu_2{
+	background-color: var(--hoverColor);
+	color:var(--fontColor);
+}
+#school_prospects_list_tbl {
+	margin-top: 10px;
+}
+
+#school_prospects_list_tbl thead {
+	color: black;
+	font-size: 13px;
+}
+
+#school_prospects_list_tbl tbody {
+	color: black;
+}
+
+#school_prospects_list_tbl tfoot {
+	color: black;
+}
+
+#school_prospects_list_tbl_filter {
+	margin-top: 10px;
+	color: black;
+}
+#school_prospects_list_tbl_info{
+	color: black;
+}
+ .paginate_button{
+	margin-left: 10px;
+    background-color: var(--themeColor);
+    color: var(--fontColor);
+    padding: 8px;
+    border-radius: 10px;
+}
+#adminDashboard {
+	color: var(--fontColor) !important;
+	background-color: var(--hoverColor) !important;
+}
+
+.navbar-inverse {
+    background-color: var(--backGroundColor) !important;
+    border-color: var(--lineBorderColor) !important;
+}

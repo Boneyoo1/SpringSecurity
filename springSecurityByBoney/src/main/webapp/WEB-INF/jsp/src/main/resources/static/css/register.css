@@ -1,0 +1,17 @@
+.radio-label {
+	
+}
+
+.radio-input {
+
+
+}
+fieldset {
+	
+	text-align: center;
+}
+
+.navbar-inverse {
+    background-color: var(--backGroundColor) !important;
+    border-color: var(--lineBorderColor) !important;
+}

@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+.home_container {
+	height: -o-calc(100% - 60px);
+	height: -webkit-calc(100% - 60px);
+	height: -moz-calc(100% - 60px);
+	margin-top: 60px;
+	background-color: var(--backGroundColor);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#video-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#video-wrapper>#video-file {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+/* object-fit not supported */
+@media ( min-aspect-ratio : 16/9) {
+	#video-wrapper>#video-file {
+		height: 300%;
+		top: -100%;
+	}
+}
+
+@media ( max-aspect-ratio : 16/9) {
+	#video-wrapper>#video-file {
+		width: 300%;
+		left: -100%;
+	}
+}
+
+.navbar-inverse {
+    background-color: var(--backGroundColor) !important;
+    border-color: var(--lineBorderColor) !important;
+}
+

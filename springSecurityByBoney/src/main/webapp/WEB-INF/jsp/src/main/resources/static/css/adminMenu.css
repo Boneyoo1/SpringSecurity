@@ -1,0 +1,64 @@
+@CHARSET "ISO-8859-1";
+
+.sschool_admin_menu_container {
+	margin: 0px !important;
+}
+
+.school_admin_menu_content {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+#school-name-tab-menu {
+	border: 1px solid var(--lineBorderColor);
+	background-color: var(--backGroundColor);
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 912px;
+	padding: 0px important;
+	color:var(--fontColor);
+}
+
+#school_admin_menu div:HOVER {
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+}
+/*.school_admin_each_menu {
+	color: ghostwhite;
+	padding: 0px;
+	border-bottom: 1px solid ghostwhite;
+	cursor: pointer;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-size: 17px;
+	margin: 0px !important;
+	padding: 10px !important;
+	font-weight: 600;
+	color: ghostwhite !important;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}*/
+
+.school_admin_each_menu {
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	padding: 10px;
+	border-bottom: 1px solid ghostwhite;
+	cursor: pointer;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+.jconfirm-content {
+	font-size: 16px;
+	font-weight: 300;
+	color: #888;
+	line-height: 30px;
+	text-align: center;
+}

@@ -1,0 +1,23 @@
+@CHARSET "ISO-8859-1";
+
+#schools_list_tbl_wrapper {
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+.search-icon-add-modal {
+	padding-top: 10px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.selected-school-row {	
+	background-color: #033f7a;
+	color: ghostwhite;
+}
+
+#schools_list_tbody tr:HOVER {
+	cursor: pointer;
+	background-color: #033f7a;
+	color: ghostwhite;
+}

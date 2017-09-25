@@ -1,0 +1,259 @@
+
+
+.tab_active {
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.profile_tab_personal_info {
+background-color: var(--backGroundColor) ;
+	color: var(--fontColor);
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.profile_tab_personal_info:HOVER{
+	background-color: var(--hoverColor) !important;
+}
+
+.profile_tab_permanent_address {
+background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.profile_tab_permanent_address:HOVER{
+	background-color: var(--hoverColor) !important;
+}
+
+.profile_tab_mailing_address {
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.profile_tab_mailing_address:HOVER{
+	background-color: var(--hoverColor) !important;
+}
+
+.profile_tab_contact_info {
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.profile_tab_contact_info:HOVER{
+	background-color: var(--hoverColor) !important;
+}
+
+
+.profile_tab_geographic_info {
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.profile_tab_geographic_info:HOVER{
+	background-color: var(--hoverColor) !important;
+}
+
+.profile_tab_citizenship_info {
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.profile_tab_citizenship_info:HOVER{
+	background-color: var(--hoverColor) !important;
+}
+
+.profile_tab_emergency_contact {
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.profile_tab_emergency_contact:HOVER{
+	background-color: var(--hoverColor) !important;
+}
+
+.iti-flag {
+	background-image: url("img/flags.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) , only screen and
+		(min--moz-device-pixel-ratio: 2) , only screen and
+		(-o-min-device-pixel-ratio: 2 / 1) , only screen and
+		(min-device-pixel-ratio: 2) , only screen and (min-resolution: 192dpi)
+		, only screen and (min-resolution: 2dppx) {
+	.iti-flag {
+		background-image: url("img/flags@2x.png");
+	}
+}
+
+.form-group.required .control-label.required:after {
+	content: '*';
+	top: 0;
+	color: var(--themeColor);
+}
+
+/*
+#form-user-home-contact-no, #form-user-work-contact-no,
+	#form-emergency-contact-no {
+	padding-right: 135px;
+	padding-left: 45px;
+}
+*/
+.input-group {
+	transition: all .3s;
+	width: 100%;
+	box-shadow: none;
+	border-radius: 4px;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	vertical-align: middle;
+	background: white;
+	border: 1.5px solid #033f7a;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 50px;
+	color: black;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.datepicker-switch {
+	color: var(--fontColor);
+	background-color: var(--lineBorderColor);
+	border-color: var(--hoverColor);
+}
+
+.datepicker.dropdown-menu {
+	position: absolute;
+	margin-top: 60px;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	float: left;
+	display: none;
+	min-width: 160px;
+	list-style: none;
+	background-color: var(--backGroundColor);
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background-clip: padding-box;
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.428571429;
+	top: 100%;
+}
+
+.phoneNumberError {
+	float: right;
+	margin-right: 20px;
+	margin-top: -30px;
+	position: relative;
+	z-index: 2;
+	color: var(--themeColor);
+}
+
+.navbar-inverse {
+    background-color: var(--backGroundColor) !important;
+    border-color: var(--lineBorderColor) !important;
+}
+
+.fa-close{
+color:var(--fontColor) !important;
+}
+.fa-close:HOVER{
+color:var(--themeColor) !important;
+}
+
+.close{
+color:var(--fontColor) !important;
+}
+.close:HOVER{
+color:var(--themeColor) !important;
+}
+
+.fa-search{
+color:var(--fontColor) !important;
+}
+.fa-search:HOVER{
+color:var(--themeColor) !important;
+}
+
+.datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active:active {
+    color: var(--fontColor) !important;
+    background-color: var(--themeColor) !important;
+    border-color: var(--lineBorderColor) !important;
+}
+input[type=radio]:before  {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+}
+
+
+input[type='radio']:before {
+  border-radius:50%;
+      border: 1px solid var(--borderColor) ;
+	
+}
+
+input[type='radio']:checked:before {
+	 display: block;
+  visibility: visible;
+	 width: 100%;
+    height: 100%;
+	border: 2px solid var(--lineBorderColor) !important;
+	background-color: var(--themeColor) !important;
+}
+
+
+

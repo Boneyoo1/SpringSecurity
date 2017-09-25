@@ -1,0 +1,51 @@
+.btn-multiselect {
+	height: 50px;
+	margin: 0;
+	padding: 0 10px;
+	vertical-align: middle;
+	background: white;
+	border: 1.5px solid var(--borderColor);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 50px;
+	color: black;
+	width: 100%;
+	display: inline-block;
+	border-radius: 4px;
+	box-shadow: none;
+	text-align:center;	
+	transition: all .3s;
+}
+
+.btn-multiselect:FOCUS{
+	border: 1.5px solid var(--themeColor);
+}
+
+.caret {
+	position: absolute;
+	left: 95%;
+	top: 45%;
+	border-top: 7px solid #000000;
+}
+
+#school-names {
+	border: 1px solid var(--lineBorderColor);
+	background-color: var(--backGroundColor);
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 912px;
+	padding: 0px important;
+}
+#collegeSetup {
+	color: var(--fontColor);
+	background-color: var(--hoverColor) !important;
+}
+
+a:hover{
+	color: var(--themeColor);
+}
+
+.add_question_i:HOVER {
+	color: var(--themeColor);
+}

@@ -1,0 +1,21 @@
+#count_message {
+	background-color: smoke;
+	margin-top: 0px;
+	margin-right: 5px;
+}
+
+.writing-section-lbl {
+	font-weight: 500;
+	font-size: 18px !important;
+}
+
+.btn-group {
+	margin-top: 0px !important;
+}
+
+textarea, textarea.form-control {
+	height: 200px;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fff;
+}

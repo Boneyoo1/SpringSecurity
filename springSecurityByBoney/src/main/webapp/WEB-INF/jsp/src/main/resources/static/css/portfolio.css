@@ -1,0 +1,263 @@
+div.apply-tab-container {
+	z-index: 10;
+	background-color: #ffffff;
+	padding: 0 !important;
+}
+
+div.apply-tab-menu {
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	border-right: 1px solid  var(--lineBorderColor);
+}
+
+div.apply-tab-menu div.list-group {
+	margin-bottom: 0;
+}
+
+div.apply-tab-menu div.list-group span {
+	font-size: 28px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+div.apply-tab-menu div.list-group>a {
+	margin-bottom: 0;
+	font-size: 16px;
+}
+
+div.apply-tab-menu div.list-group>a .glyphicon, div.apply-tab-menu div.list-group>a .fa
+	{
+	color: var(--themeColor);
+}
+
+div.apply-tab-menu div.list-group>a:first-child {
+	border-top-right-radius: 0;
+	-moz-border-top-right-radius: 0;
+}
+
+div.apply-tab-menu div.list-group>a:last-child {
+	border-bottom-right-radius: 0;
+	-moz-border-bottom-right-radius: 0;
+}
+
+div.apply-tab-menu div.list-group>a.active, div.apply-tab-menu div.list-group>a.active .glyphicon,
+	div.apply-tab-menu div.list-group>a.active .fa {
+	background-image: #5A55A3;
+	color: #ffffff;
+}
+
+div.apply-tab-menu div.list-group>a.active:after {
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-top: -13px;
+	border-left: 0;
+	border-bottom: 13px solid transparent;
+	border-top: 13px solid transparent;
+	border-left: 10px solid #5A55A3;
+}
+
+div.apply-tab-content {
+	background-color: #ffffff;
+	text-align: center;
+	display: none;
+}
+
+.apply_form_caption {
+	font-weight: 900;
+	letter-spacing: 1px;
+	border-bottom: 1px solid var(--lineBorderColor);
+	padding-bottom: 10px;
+	background-color: var(--backGroundColor);
+	padding-top: 28px;
+	height: 90px;
+	color: var(--fontColor);
+	font-size: 30px;
+	text-align: left;
+	padding-left: 25px;
+}
+
+.ui-datepicker-trigger {
+	border: none;
+	background: none;
+}
+
+.profile-info-content {
+	display: none;
+}
+
+.apply-btn-group .btn {
+	margin-right: 5px;
+}
+
+.modal {
+	top: 31px !important;
+}
+
+.modal-backdrop.in {
+	opacity: 0 !important;
+	display: none !important;
+}
+
+.row {
+	margin-bottom: 15px !important;
+}
+
+.red {
+	color: var(--themeColor) !important;
+	cursor: pointer;
+}
+
+.address-textarea {
+	height: 55px !important;
+}
+
+.writing-add-lbl {
+	text-align: left;
+}
+
+.writing-add-text {
+	height: 200px !important;
+}
+
+.add-header {
+	text-align: left;
+	margin-top: 10px;
+}
+
+.edit-delete-icon {
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.edit-delete-icon:HOVER {
+	color: var(--themeColor);
+}
+
+.apply-tab-content th {
+	color: black;
+	font-size: 15px;
+}
+
+.loading-bg {
+	position: absolute;
+	background-color: black;
+	opacity: 0.6;
+}
+
+.loading-bg-icon {
+	margin-top: 20%;
+	font-size: 100px;
+}
+
+tbody {
+	text-align: left;
+	color: black;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+}
+.jqte_editor {
+	height: 220px !important;
+}
+
+#profile_sections_completed_uncompleted {
+	height: 150px;
+	text-align: center;
+	background-color: var(--backGroundolor);
+	padding-top: 10px;
+}
+
+#profile_sections_completed_uncompleted i {
+	font-size: 100px;
+	color: var(--themeColor);
+	text-align: center;
+}
+
+.list-group-item span {
+	margin-right: 15px;
+	font-size: 25px !important;
+	vertical-align: sub;
+}
+
+.list-group-item {
+	font-size: 15px !important;
+	text-align: left !important;
+	background-color: var(--backGroundColor) !important;
+	color: var(--fontColor) !important;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.tab_active {
+	background-color: var(--hoverColor) !important;
+	color: var(--fontColor) !important;
+}
+
+.apply-tab {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.form-horizontal .row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.btn-group {
+	margin-top: 20px !important;
+}
+
+#documents-info .row, #testing-info .row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+#documents-info .table-responsive, #testing-info .table-responsive {
+	margin: 25px;
+}
+
+.school_app_status {
+	margin-top: 15px;
+}
+
+.pending {
+	color: var(--pendingIcon) !important;
+}
+
+.ok {
+	color: var(--tickmarkColor) !important;
+}
+
+.apply-tab-menu .row {
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.applied_non_applied_count {
+	color: black;
+	margin-top: 6px;
+	font-size: 14px;
+}
+
+#writingTextHiddenCol {
+	display: none;
+}
+
+.profile_tab {
+	background-color: var(--backGroundColor);
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.list-group-item:HOVER {
+	background-color: var(--hoverColor) !important;
+}

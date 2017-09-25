@@ -1,0 +1,522 @@
+.school-list-container {
+	background-color: white;
+	padding: 0px !important;
+	font-family: 'Roboto', sans-serif;
+}
+
+#school-names {
+	border: 1px solid var(--lineBorderColor);
+	background-color: var(--backGroundColor);
+	overflow-y: auto;
+	overflow-x: hidden;
+	color: var(--fontColor);;
+}
+
+#school-name-tab-menu {
+	overflow: hidden;
+}
+
+.school_app_status i {
+	padding: 8px;
+	border-radius: 100%;
+	font-size: 14px;
+	border: 1px solid var(--themeColor); /* for circle color*/
+}
+
+.red {
+	color: var(--pendingIcon);
+}
+
+
+.green {
+	color: var(--tickmarkColor);
+}
+
+#school-names-completed_uncompleted {
+	height: 150px;
+	text-align: center;
+	background-color: var(--backGroundColor);
+	padding-top: 10px;
+}
+
+#school_completed_div {
+	height: 200px;
+}
+
+#school-names .each_school_name {
+	color: var(--fontColor);
+	padding: 10px;
+	border-bottom: 1px solid var(--lineBorderColor);
+	cursor: pointer;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+#school-names div:HOVER {
+background-color: var(--hoverColor);
+	color: var(--fontColor);
+
+}
+
+.school-names-header {
+	background-color: #033f7a;
+	color: ghostwhite;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid var(--lineBorderColor);
+}
+
+#school-name-tab-menu {
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #337ab7;
+}
+
+#school-content {
+	padding-left: 0px;
+	padding-right: 0px;
+	border-left: 1px solid var(--lineBorderColor);
+	display: none;
+}
+
+.school_name_active {
+	background-color: var(--hoverColor) !important;
+	color: var(--fontColor) !important;
+}
+
+.loading-bg {
+	position: absolute;
+	background-color: black;
+	opacity: 0.6;
+}
+
+.loading-bg-icon {
+	margin-top: 20%;
+	font-size: 100px;
+}
+
+#no_colleges_found_list {
+	background-color: white;
+	text-align: center;
+	color: black;
+	padding: 10px !important;
+}
+
+#school_data {
+	padding: 10px;
+	color: black;
+	display: none;
+}
+
+.school_header_info {
+	margin-left: 19px;
+	border-bottom: 1px solid var(--lineBorderColor);
+	width: 97%;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+
+.school_term {
+	background-color: var(--bckGroundColor);
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border: 1px solid var(--lineBorderColor);
+}
+
+.term_name {
+	color: #033f7a;
+	padding: 10px;
+}
+
+.deadline_date {
+	padding-bottom: 5px;
+}
+
+.deadline_date div {
+	padding-bottom: 5px;
+}
+
+#school_img {
+	height: 280px;
+}
+
+#school_img img {
+	width: 100%;
+	height: 100%;
+}
+
+#school_name_deadline_date {
+	margin: 0px;
+	padding: 10px;
+	color: var(--fontColor);
+	background-color: var(--backGroundColor);
+	opacity: 0.8;
+	letter-spacing: 1px;
+	font-size: 15px;
+	width: 100%;
+}
+
+#school_name_col {
+	
+}
+
+#school_deadline_col {
+	
+}
+
+#school_tabs {
+	margin: 0px;
+	background-color: var(--backGoundColor);
+	letter-spacing: 1px;
+	border-bottom: 1px solid var(--lineBorderColor);
+	color:var(--fontColor);
+}
+
+.school_tab {
+	padding: 10px;
+	/*border-right: 1px solid var(--lineBorderColor);*/
+	text-align: center;
+	cursor: pointer;
+	/*border-bottom: 1px solid var(--lineBorderColor) !important;*/
+}
+
+.school_tab:HOVER {
+	background-color: var(--hoverColor);
+	color: var(--fontColor);
+}
+
+.selected_school_tab {
+	background-color: var(--hoverColor);
+	color: var(--fontColor);
+}
+
+#school-names-completed_uncompleted i {
+	font-size: 100px;
+	color: var(--themeColor);
+	text-align: center;
+}
+
+.applied_non_applied_count {
+	color: black;
+	margin-top: 10px;
+}
+
+.school_tabs_info {
+	color: black;
+	padding: 10px;
+	display: none;
+}
+
+#school_contact_info {
+	
+}
+
+.sub_header {
+	letter-spacing: 1px;
+	font-size: 14px;
+	border-bottom: 1px solid var(--lineBorderColor);
+	padding-bottom: 5px;
+}
+
+#school_tabs_info div {
+	margin: 6px;
+}
+
+.college_specific_questions_p {
+	margin-bottom: 19px;
+	font-weight: 900;
+	border-bottom: 1px solid var(--lineBorderColor);
+	padding-bottom: 10px;
+}
+
+#question_sections {
+	
+}
+
+.each_question_section {
+	background-color: var(--backGroundColor);
+	padding: 10px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	cursor: pointer;
+	border: 1px solid var(--lineBorderColor);
+}
+
+.each_question_section i {
+	padding-right: 10px;
+}
+
+.each_section_questions {
+	
+}
+
+.each_question {
+	padding-bottom: 2px;
+}
+
+.each_section_questions {
+	display: none;
+}
+
+.each_question_title {
+	font-weight: 500;
+}
+
+.each_question_answer_text {
+	
+}
+
+.error {
+	color: var(--themeColor) !important;
+}
+
+.color_red {
+	color: var(--themeColor) !important;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.each_question_table_question {
+	background: #e3e3e3;
+	padding: 10px 15px 15px;
+}
+
+.add_another {
+	color: blue;
+	cursor: pointer;
+	margin: 20px !important;
+}
+
+.close_tbl_question {
+	float: right;
+	padding: 6px;
+	color: var(--themeColor);
+	border-radius: 50%;
+	font-weight: 900;
+	font-size: 20px;
+	margin-top: -23px;
+	cursor: pointer;
+	margin-right: -19px;
+	cursor: pointer;
+}
+
+.modal-title {
+	color: black;
+}
+
+.modal-body {
+	color: black;
+}
+
+#no-sections-found {
+	text-align: center;
+	background-color: var(--backGroundColor);
+	color: var(--fontColor);
+	padding: 10px;
+}
+
+.add_question_i {
+	float: right;
+	cursor: pointer;
+}
+
+.modal-footer {
+	border: none !important;
+}
+
+#school_degrees_tfoot_row_no_data, #school_terms_tfoot_row_no_data {
+	display: none;
+}
+
+#answer_options_row {
+	display: none;
+}
+
+.each_question_section i {
+	cursor: pointer;
+}
+
+.each_section_questions {
+	margin: 15px;
+}
+
+#school_documents_tfoot_row_no_data {
+	display: none;
+}
+
+#parent_question_title_row {
+	display: none;
+}
+
+#parent_question_answer_condition_row {
+	display: none;
+}
+
+.school_document {
+	padding: 5px;
+	background-color: var(--backGroundColor);
+	border: 2px solid var(--linBorderColor);
+}
+
+.school_document_name {
+	color: #333;
+	font-size: 18px;
+}
+
+div[id^="school_document_name_uploaded_bar_"] {
+	margin: 9px !important;
+	width: 99%;
+	padding: 0px !important;
+}
+
+div[id^="school_document_name_uploaded_bar_"] div {
+	margin: 0px !important;
+}
+
+.filled_color {
+	background: var(--themeColor) !important;
+}
+
+.uploaded_doc_name {
+	color: #033f7a;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.table a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.accept_term_conditions_p {
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.accept_term_conditions_checkbox {
+	margin-right: 10px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	font-size: 14px;
+	border-collapse: collapse;
+}
+
+th, td {
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+}
+
+.jconfirm-content {
+	font-size: 16px;
+	font-weight: 300;
+	color: #888;
+	line-height: 30px;
+	text-align: center;
+}
+
+input[type="text"], input[type="tel"], input[type="password"], input[type="email"], select, textarea, textarea.form-control{
+	border: 1.5px solid var(--borderColor);
+	color: var(--fontColor) !important;
+	
+}
+
+input[type="text"]:FOCUS, input[type="tel"]:FOCUS, input[type="password"]:FOCUS, input[type="email"]:FOCUS, select:FOCUS, textarea:FOCUS, textarea.form-control:FOCUS{
+	border: 1.5px solid var(--themeColor);
+	color: var(--fontColor) !important;
+	
+}
+
+.radio-lable{
+	color: var(--fontColor) !important;
+}
+
+a{
+	color: var(--fontColor);
+}
+
+.navbar-inverse {
+    background-color: var(--backGroundColor) !important;
+    border-color: var(--lineBorderColor) !important;
+}
+
+button.btn{
+	color: var(--fontColor) !important;
+}
+button.btn:HOVER{
+	color: var(--fontColor) !important;
+}
+.jconfirm.jconfirm-white .jconfirm-box .jconfirm-buttons button.btn-default,
+	.jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons button.btn-default
+	{
+	background-color: var(--themeColor) !important;
+	color:var(--fontColor) !important;
+	}
+	
+input[type=radio]:before  {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+}
+
+
+input[type='radio']:before {
+  border-radius:50%;
+      border: 1px solid var(--borderColor) ;
+	
+}
+
+input[type='radio']:checked:before {
+	 display: block;
+  visibility: visible;
+	 width: 100%;
+    height: 100%;
+	border: 2px solid var(--lineBorderColor) !important;
+	background-color: var(--themeColor) !important;
+}
+
+
+input[type=checkbox] {
+	
+	transform: scale(0.7);
+	width: 36px;
+	height: 36px;
+	vertical-align: middle;
+	cursor: pointer;
+	visibility: hidden;
+	
+
+	
+}
+
+input[type=checkbox]:after {
+	content: "";
+	vertical-align: bottom;
+	display: inline-block;
+	color: red;
+	width: 20px;
+	height: 20px;
+	visibility: visible;
+	border: 1px solid var(--fontColor) !important;
+	padding-left: 0.2em;
+	background-color: var(--backGroundColor) !important;
+
+}
+
+input[type=checkbox]:checked:after {
+
+	content: "\2713";
+	font-weight: bold;
+	border: 1px solid var(--fontColor) !important;
+}
+
+
+
+	
+	
